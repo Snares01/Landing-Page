@@ -1,3 +1,51 @@
+/* Entire Page */
 html {
     font-family: Roboto, sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
+.panels {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Banner Content */
+.banner {
+    background-color: #1F2937;
+    color: white;
+    flex: 1;
+
+    display: flex;
+}
+
+/* Info Panel Content */
+.info {
+    flex: 1;
+}
+
+.info-card {
+    width: 200px;
+}
+
+/* Quote Panel Content */
+.quote {
+    background-color: #E5E7EB;
+    flex: 1;
+}
+
+/* Sign-Up Panel Content */
+.sign-up {
+    flex: 1;
+}
+
+/* Footer Content */
+.footer {
+    background-color: #1F2937;
+    color: white;
+    flex: 1;
 }
