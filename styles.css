@@ -155,12 +155,13 @@ body {
     flex: 1;
 
     display: flex;
-    padding: 5vw 10vw;
+    padding: 8vw 15vw;
 }
 .sign-up__panel {
     background-color: #3882F6;
     border-radius: 12px;
     flex: 1;
+    padding: 16px;
 
     display: flex;
     justify-content: space-evenly;
@@ -200,4 +201,9 @@ body {
     background-color: #1F2937;
     color: white;
     flex: 1;
+}
+.footer p {
+    text-align: center;
+    font-weight: 300;
+    margin: 32px;
 }
