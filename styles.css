@@ -1,3 +1,5 @@
+/* I don't think CSS is supposed to make me feel this unorganized */
+
 /* Entire Page */
 
 body {
@@ -9,7 +11,6 @@ body {
     display: flex;
     flex-direction: column;
 }
-
 
 /* Header & Banner Content */
 .header,
@@ -87,10 +88,44 @@ body {
 /* Info Panel Content */
 .info {
     flex: 1;
-}
+    padding: 48px;
 
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+.info h1 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    margin: 0px;
+}
+.cards {
+    flex: 1;
+
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
 .info-card {
     width: 200px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3em;
+}
+.info-card p {
+    color: #1F2937;
+    text-align: center;
+}
+.card-icon {
+    width: 100%;
+    border-radius: 10%;
+    border-style: solid;
+    border-color: #3882F6;
+    border-width: 5px;
 }
 
 /* Quote Panel Content */
