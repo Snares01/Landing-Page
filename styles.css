@@ -10,12 +10,12 @@ body {
     flex-direction: column;
 }
 
-/* Banner Content */
+
+/* Header & Banner Content */
+.header,
 .banner {
     background-color: #1F2937;
     color: white;
-    min-height: 60vh;
-    padding: 15vh 15vw;
     flex: 1;
 
     display: flex;
@@ -23,7 +23,15 @@ body {
     align-items: center;
     gap: 28px;
 }
+.banner {
+    padding: 5vh 15vw;
+    min-height: 60vh;
+}
+.header {
+    padding: 0px 15vw;
+}
 
+.header-logo,
 .hero-text {
     flex: 1;
     height: 100%;
@@ -34,6 +42,17 @@ body {
     align-items: start;
     gap: 12px;
 }
+
+.top-nav {
+    display: flex;
+    font-weight: 300;
+    gap: 28px;
+}
+.top-nav a {
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
 .hero-text h1 {
     font-size: 64px;
     font-weight: 700;
